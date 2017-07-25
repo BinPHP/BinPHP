@@ -1,0 +1,31 @@
+{
+    "name": "binphp/binphp",
+    "description": "Binary Utilities 4PHP.",
+    "keywords": [
+        "php", "bin", "binary"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/binphp/binphp/issues",
+        "source": "https://github.com/binphp/binphp"
+    },
+    "authors": [
+        {
+            "name":     "Kamil Jamroz",
+            "homepage": "https://github.com/khelle"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "BinPHP\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
